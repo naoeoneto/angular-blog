@@ -1,0 +1,12 @@
+/* .menu__container {
+
+} */
+
+.menu__container ul {
+  display: flex;
+}
+
+.menu__container ul li {
+  margin-right: 10px;
+  list-style: none;
+}
