@@ -1,22 +1,16 @@
 <div class="big-card__container">
   <div class="big-card__photo">
-    <img
-      src="https://eurovoix.com/wp-content/uploads/2022/05/Greece-First-Rehearsal-4-scaled.jpg"
-      alt=""
-      height="200px"
-      width="300px"
-    />
+    <img src="{{ photoCover }}" alt="" height="200px" width="300px" />
   </div>
   <div class="big-card__title">
-    <h1><a href="">Saiu a nova versão do Angular!</a></h1>
+    <h1>
+      <a href="#">{{ cardTitle }}</a>
+    </h1>
   </div>
   <div class="big-card__description">
     <p>
-      <a href="">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis,
-        dolore quaerat eius aperiam molestiae quod atque ducimus odio saepe
-        accusamus sint debitis ut incidunt ullam pariatur rem veritatis modi
-        est!
+      <a href="#">
+        {{ cardDescription }}
       </a>
     </p>
   </div>
