@@ -12,6 +12,7 @@
   width: 100%;
   min-width: 400px;
   object-fit: cover;
+  border-radius: 5px;
 }
 
 .big-card__title h1 {

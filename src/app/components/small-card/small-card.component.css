@@ -1,10 +1,6 @@
 .small-card__conteiner {
-  /* border: 1px solid white; */
   width: 700px;
   margin-bottom: 15px;
-
-  /* display: flex;
-  flex-direction: column; */
 }
 
 .small-card-content {
