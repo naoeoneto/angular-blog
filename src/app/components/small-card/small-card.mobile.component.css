@@ -1,0 +1,29 @@
+@media screen and (max-width: 425px) {
+  .small-card__conteiner {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 0 10px;
+  }
+
+  .small-card-content {
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .small-card-photo {
+    display: flex;
+    align-items: center;
+    min-width: 100px;
+    width: 50%;
+  }
+
+  .small-card-title {
+    width: 50%;
+    padding-left: 15px;
+  }
+
+  .small-card-title h1 a {
+    font-size: 20px;
+  }
+}

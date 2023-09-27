@@ -1,0 +1,41 @@
+.content__container {
+  border: 1px solid white;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.content-cover {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.content-cover p {
+  margin-top: 20px;
+  color: rbg(198, 197, 197);
+}
+
+.content-cover img {
+  border-radius: 5px;
+  width: 100%;
+  min-width: 425px;
+  height: 300px;
+}
+
+.content-title {
+  margin-top: 16px;
+  padding: 0 32px;
+}
+
+.content-title hr {
+  margin-top: 10px;
+}
+
+.content-description {
+  margin-top: 15px;
+}
